@@ -2,32 +2,32 @@
 const fs = require('fs-extra');
 
 /***** Mensagens de Aguarde *****/
-var mensagens = ["Oi princesa, já estou preparando pra enviar, Aguarde..", "Aquieta o coração amigo, já estou enviando!", "Pisa no freio aí amigo, tô enfiando já, ops enviando rsrs!", "Foi daqui que pediram comando? Ta chegando...", "Oq vc ñ pede chorando, que eu não faço sorrindo, enviando já!", "Em 365 dias úteis termino o comando kkkk meme, to enviando!", "Não precisa gritar, já ouvi e tô enviando seu pedido!", "Aproveita que tô terminando aqui e beba água, hidrate-se!", "Seu pedido é uma ordem, terminando patrão!", "Manda quem pode, obedece quem tem juízo. Já tô enviando...",  "Jaja está na mão amigo, aguarde um instante!", "Eitaa parece quê alguém precisa de mim hehe‍!"
+var mensagens = ["Opa, calma rapa., Processando..", "Rlx aí, vo enviar!", "Choo choo, freia aí!", "Me chamaram, tô indo...", "Ah cara, já envio logo!", "Um milhão de anos dps!", "Calma chefe, já tô enviando!", "H2o calma *GULP*!", "Isso foi uma obrigação!", "TENHO ADVOGADO...",  "Opa opa é pra já!", "Aiai Oloko meu!"
 ]
 
 const enviar = {
   espere: mensagens[Math.floor(Math.random() * mensagens.length)],
-  aguarde: 'Por favor, aguarde um momento! *Já estou enviando o que foi solicitado.*',
-  sucesso: '️Sucesso ao executar o comando.',
-  levelon: 'Leveling ativado com sucesso.',
-  leveloff: 'Leveling desativado com sucesso.',
-  levelnoton: 'Leveling não está ativado..',
-  levelErr: 'Erro identificado! Entre em contato com o dono para a resolução do problema.',
+  aguarde: 'Só preciso de alguns consertos, espere...',
+  sucesso: '️Exelente!',
+  levelon: 'Leveling habilidado!',
+  leveloff: 'Leveling desabilidado!',
+  levelnoton: 'Leveling erro!',
+  levelErr: 'Erro! contato com dono urgente!',
 error: {
-  sticker: 'Falha ao converter a mídia, tente novamente mais tarde.',
-  Iink: 'Certifique-se ️se esse é o link correto a ser utilizado no comando.',
-    erro: 'Desculpe, ocorreu um erro. Por favor, tente novamente mais tarde.'
+  sticker: 'Não funcionou...',
+  Iink: 'Tem certeza que esse link é confiavél?',
+    erro: 'Erro! tente mais tarde'
 },
 msg: {
-  grupo: 'Este comando só pode ser utilizado em grupos.',
-  premium: 'Este comando é exclusivo para usuários na lista premium.',
-  mod: 'Este comando é específico para o meu dono.',
-  banido: 'Você foi banido de utilizar os meus comandos.' ,
-  donosmt: 'Desculpe, mas apenas o dono do bot pode utilizar este comando.',
-  donosmt2: 'Desculpe, mas apenas o dono do bot pode utilizar este comando.',
-  adm: 'Apenas administradores do grupo podem utilizar este comando.',
-  Badmin: 'Este comando só pode ser utilizado quando o bot é um administrador do grupo.',
-  privado: 'Este comando só pode ser utilizado em conversas privadas.'
+  grupo: 'Execução só pra grupos.',
+  premium: 'Execução só pra lista premium.',
+  mod: 'Execução só pra dono.',
+  banido: 'Me pego de surpresa? DEPOIS NÓIS SE VÊ.' ,
+  donosmt: 'Execução uso do dono.',
+  donosmt2: 'EXECUÇÃO USO DO DONO, ENTENDEU?',
+  adm: 'Execução só pra adm.',
+  Badmin: 'Execução pra bot ser adm.',
+  privado: 'Execução em pv'
 }
 }
 

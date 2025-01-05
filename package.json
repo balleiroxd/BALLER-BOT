@@ -38,8 +38,8 @@
     "request": "^2.88.2",
     "yt-search": "^2.10.2"
   },
-  "name": "ZeroTwo-BOT",
-  "description": "Sempre buscando melhorar, qualquer dúvida entra em contato comigo por meio do WhatsApp: +55 94 99156-9380",
+  "name": "Baller-BOT",
+  "description": "contato comigo: +55 11 97728-4048",
   "version": "9.0.0",
   "main": "index.js",
   "scripts": {
@@ -48,7 +48,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Otakump4/zero-two-md"
+    "url": "https://github.com/balleiroxd/BALLER-BOT"
   },
   "keywords": [
     "bot-baileys"
@@ -56,7 +56,7 @@
   "author": "Lucas Mod.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Otakump4/zero-two-md"
+    "url": "https://github.com/balleiroxd/BALLER-BOT"
   },
-  "homepage": "http://Instagram.com/lucas_mod_domina"
+  "homepage": "https://www.youtube.com/@balleiroxd"
 }

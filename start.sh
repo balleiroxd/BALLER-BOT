@@ -6,7 +6,7 @@ clear
 
 while : 
 do
-printf "${GREEN}︎Zero-Two-MD 9.0 -_ Sistema de reinício automático ligado! Iniciando bot...\n"
+printf "${BLUE}Baller Bot 9.0 -_ Iniciando bot...\n"
 if [ "$1" = "sim" ]; then
 node connect.js sim
 elif [ "$1" = "não" ]; then
@@ -15,5 +15,5 @@ else
 node connect.js
 fi
 sleep 1 
-printf "${BLUE}︎Programa fechado! Iniciando bot novamente...\n"
+printf "${BLUE}Caiu a conexão, tentando reconstruir..\n"
 done
